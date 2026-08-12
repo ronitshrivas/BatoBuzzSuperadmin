@@ -1,0 +1,6 @@
+services:
+  admin-web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8090:80"
